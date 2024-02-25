@@ -1,0 +1,61 @@
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arial Black', sans-serif;
+    text-align: center;
+}
+
+section {
+    width: 70%;
+    margin: 20px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+section55 {
+    width: 70%;
+    margin: 20px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb( 128,0,255);
+    border-radius: 10px;
+    
+}
+p55 {
+    color:rgb(53,77,0)
+}
+p, a {
+    color: rgb(125, 125, 227);
+
+}
+
+
+p1,p2,strong {color: rgb(0, 0, 0);}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Add this style to center the circular image */
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* Adjust the width and height according to your preference */
+    height: 200px;
+    border-radius: 75%; /* Make it a circle */
+    overflow: hidden;
+    margin: 0 auto; /* Center the container */
+}
+
+.profile-picture img {
+    width: 100%; /* Make sure the image takes the full space within the circle */
+    height: auto;
+    border-radius: 50%; /* Keep the image circular */
+}
