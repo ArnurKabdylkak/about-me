@@ -57,5 +57,5 @@ img {
 .profile-picture img {
     width: 100%; /* Make sure the image takes the full space within the circle */
     height: auto;
-    border-radius: 50%; /* Keep the image circular */
+    border-radius: 70%; /* Keep the image circular */
 }
